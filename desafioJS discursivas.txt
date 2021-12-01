@@ -1,0 +1,22 @@
+1- O resultado da expressão dada é 35, uma vez que o javascript interpreta as expressoes matematicas pela ordem 
+de importancia dos operadores.
+
+2- A difereça entre == e === se da nas variaveis de comparacao. O == faz uma espécie de comparação abstrata, 
+convertendo os valores para o mesmo tipo de variavel e comparando somente os valores em si. O === compara tanto o
+valor quanto o tipo de variavel. Exemplo: 1 == "1" -> true; mas 1==="1" -> false. Já que a primeira variavel
+é um numero, e a segunda, uma string.
+
+3- B - loop infinito. O programa não contém um break ou algum parametro para sair do while, sendo assim, 
+ele printará o valor da variavel num infinitas vezes.
+
+4 - novoNumero = 9 e a =3. Como a variavel a foi definida antes da execucao da função, ela continua com seu valor
+inalterado. Servindo apenas de parametro para a execução da função, e o resultado dessa funcao atribuido numa nova
+variavel, que nesse caso é a novoNumero, deixando o valor de a intocado.
+
+5 - o retorno sera 'false'. No inicio, as duas variaveis eram objetos com o parametro 'nome' igual, já que o nome
+da objeto b era herdado do objeto a. Logo após, foi atribuido um outro nome ao parametro 'nome' do objeto a,
+fazendo com que as informações fiquem diferentes na comparação em seguida.
+
+6- Na realidade, se formos declarar as variaveis com int, o programa não rodará, pelo javascrip nao conter esse
+tipo numerico. Porém, caso fossemos alterar para um tipo de declaracao lida pelo js, teriamos x = 12 e y=19.4
+
